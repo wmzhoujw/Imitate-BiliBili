@@ -15,21 +15,22 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrz-NA-bCm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                </scrollView>
                 <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="e0U-8v-7ob">
                     <rect key="frame" x="316" y="149" width="39" height="37"/>
                     <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="currentPageIndicatorTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </pageControl>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrz-NA-bCm">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
-                </scrollView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="wrz-NA-bCm" firstAttribute="top" secondItem="xmV-S5-Vfx" secondAttribute="top" id="0qc-Zy-Wd4"/>
-                <constraint firstAttribute="bottom" secondItem="e0U-8v-7ob" secondAttribute="bottom" constant="10" id="Kg4-hz-gIz"/>
                 <constraint firstAttribute="bottom" secondItem="wrz-NA-bCm" secondAttribute="bottom" id="RjV-V5-MFR"/>
-                <constraint firstAttribute="trailing" secondItem="e0U-8v-7ob" secondAttribute="trailing" constant="20" id="VZu-kQ-9wL"/>
+                <constraint firstAttribute="bottom" secondItem="e0U-8v-7ob" secondAttribute="bottom" constant="10" id="Sec-he-8rC"/>
+                <constraint firstAttribute="trailing" secondItem="e0U-8v-7ob" secondAttribute="trailing" constant="20" id="Tlc-Fz-ehc"/>
                 <constraint firstAttribute="trailing" secondItem="wrz-NA-bCm" secondAttribute="trailing" id="tja-MF-2K6"/>
                 <constraint firstItem="wrz-NA-bCm" firstAttribute="leading" secondItem="xmV-S5-Vfx" secondAttribute="leading" id="wdD-mO-ihw"/>
             </constraints>

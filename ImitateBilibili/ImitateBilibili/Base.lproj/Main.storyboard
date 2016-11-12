@@ -82,7 +82,7 @@
                                     <constraint firstItem="tUw-6C-0zk" firstAttribute="leading" secondItem="kkl-DI-FQw" secondAttribute="trailing" constant="20" id="sK2-U2-ofj"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcN-CZ-m36">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcN-CZ-m36" customClass="MainScrollView" customModule="ImitateBilibili" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="114" width="375" height="553"/>
                             </scrollView>
                         </subviews>

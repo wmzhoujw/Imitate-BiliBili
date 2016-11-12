@@ -1,0 +1,3 @@
+[submodule "ImitateBilibili/Alamofire"]
+	path = ImitateBilibili/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

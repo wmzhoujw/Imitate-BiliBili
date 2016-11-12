@@ -24,13 +24,17 @@ class BannerView: UIView {
     }
     override func awakeFromNib() {
         self.frame = CGRect(x: 0, y: 0, width: ScreenWidth, height: 292)
+        itemList = [BannerModel(),BannerModel(),BannerModel(),BannerModel()]
+        scrollView.contentSize.width = ScreenWidth * itemNum
+
+        addItems()
     }
     func addItems(){
         
         for (idx,item) in itemList.enumerated() {
             let imgView = UIImageView(frame: CGRect(x: CGFloat(idx) * ScreenWidth, y: 0, width: ScreenWidth, height: 292))
             imgView.image = UIImage(named: "banner6d99b4537a79")
-            addSubview(imgView)
+            self.scrollView.addSubview(imgView)
         }
     }
 }

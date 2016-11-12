@@ -21,6 +21,9 @@ class BannerModel : NSObject{
 	/**
 	 * Instantiate the instance using the passed dictionary values to set the properties values
 	 */
+    override init() {
+        
+    }
 	init(fromDictionary dictionary: NSDictionary){
 		image = dictionary["image"] as? String
 		remark = dictionary["remark"] as? String
