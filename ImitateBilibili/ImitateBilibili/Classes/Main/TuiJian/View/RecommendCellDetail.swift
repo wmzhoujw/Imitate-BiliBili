@@ -31,6 +31,9 @@ class RecommendCellDetail: UIView {
     // MARK: - 设置数据
     func setData(){
         self.coverImage.sd_setImage(with: URL(string: (self.dataModel?.cover)!))
+        self.title.text = self.dataModel?.title
+        self.playCount.text = self.dataModel?.play
+        self.danmuku.text = self.dataModel?.danmaku
     }
     static func cellWithNib()->RecommendCellDetail{
         return UINib.init(nibName: "RecommendCellDetail", bundle: nil).instantiate(withOwner: nil, options: nil).last as! RecommendCellDetail

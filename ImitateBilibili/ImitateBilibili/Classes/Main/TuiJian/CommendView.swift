@@ -48,6 +48,7 @@ class CommendView: UIView ,SDCycleScrollViewDelegate{
         // MARK: - 内容请求
         url = URL(string: "http://app.bilibili.com/x/show/old?appkey=1d8b6e7d45233436&build=428003&channel=xiaomi&mobi_app=android&platform=android&screen=xxhdpi&ts=1479092399000&sign=11b9765825b38121b210ee0995238ddc")
         Alamofire.request(url!).responseJSON { (response) in
+            
             if let JSON:[String:Any] = response.result.value as! [String : Any]?{
                 print("===================================JSON======================")
                 print(JSON)
@@ -81,7 +82,7 @@ class CommendView: UIView ,SDCycleScrollViewDelegate{
 extension CommendView:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CommendView.RecommendID, for: indexPath) as! RecommendCell
-        cell.dataList = self.CommendDataList[indexPath.row]  as! [String : [RecommendModel]]
+        cell.dataList = self.CommendDataList[0]  as! [String : [RecommendModel]]
         return cell
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

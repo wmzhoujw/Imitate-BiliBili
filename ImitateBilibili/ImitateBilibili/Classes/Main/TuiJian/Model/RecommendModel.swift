@@ -18,6 +18,8 @@ class RecommendModel:NSObject{
 	var style : String!
 	var title : String!
 	var width : Int!
+    var play:String!
+    var danmaku:String!
 
     override init() {
         
@@ -35,6 +37,8 @@ class RecommendModel:NSObject{
 		style = dictionary["style"] as? String
 		title = dictionary["title"] as? String
 		width = dictionary["width"] as? Int
+        play = dictionary["play"] as? String
+        danmaku = dictionary["danmaku"] as? String
 	}
 
 }

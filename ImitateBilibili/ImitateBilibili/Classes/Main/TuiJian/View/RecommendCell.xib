@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,6 +21,12 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqN-I2-gxK">
+                        <rect key="frame" x="8" y="18" width="104" height="30"/>
+                        <state key="normal" title="热门推荐" image="hd_home_recommend">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QR-We-tXM" userLabel="热门推荐副本">
                         <rect key="frame" x="8" y="18" width="104" height="30"/>
                         <state key="normal" title="热门推荐" image="hd_home_recommend">
                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,13 +61,22 @@
                     <constraint firstItem="GzY-49-2cP" firstAttribute="leading" secondItem="TCl-OK-ovn" secondAttribute="leading" id="9zI-aa-mjI"/>
                     <constraint firstItem="GzY-49-2cP" firstAttribute="height" secondItem="TCl-OK-ovn" secondAttribute="height" id="Bpx-6X-TCm"/>
                     <constraint firstItem="A7m-4F-cI2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="Ckv-Lv-lHp"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="top" secondItem="VqN-I2-gxK" secondAttribute="bottom" constant="-30" id="G87-2T-HLy"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="width" secondItem="VqN-I2-gxK" secondAttribute="height" multiplier="52:15" id="GHG-F8-9tA"/>
                     <constraint firstItem="3gt-UW-rKw" firstAttribute="leading" secondItem="TCl-OK-ovn" secondAttribute="trailing" constant="10" id="Gbu-hF-xe3"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="centerX" secondItem="VqN-I2-gxK" secondAttribute="centerX" id="IMi-F5-Pda"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="width" secondItem="VqN-I2-gxK" secondAttribute="width" id="JfE-Un-Rz3"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="baseline" secondItem="VqN-I2-gxK" secondAttribute="baseline" id="K5o-YL-tjK"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="leading" secondItem="VqN-I2-gxK" secondAttribute="leading" id="NwQ-hg-8sP"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="leading" secondItem="VqN-I2-gxK" secondAttribute="trailing" constant="-104" id="OCe-3l-gPf"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="bottom" secondItem="VqN-I2-gxK" secondAttribute="bottom" id="Pbc-DH-RbI"/>
                     <constraint firstItem="lHA-r0-dK1" firstAttribute="leading" secondItem="3gt-UW-rKw" secondAttribute="leading" id="Qvb-Yv-Kq0"/>
                     <constraint firstItem="VqN-I2-gxK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="RCD-mn-7WI"/>
                     <constraint firstAttribute="trailingMargin" secondItem="A7m-4F-cI2" secondAttribute="trailing" id="SMF-uM-qGJ"/>
                     <constraint firstItem="VqN-I2-gxK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="UiW-Cu-2a1"/>
                     <constraint firstItem="3gt-UW-rKw" firstAttribute="top" secondItem="TCl-OK-ovn" secondAttribute="top" id="Wky-SG-UmC"/>
                     <constraint firstAttribute="trailingMargin" secondItem="3gt-UW-rKw" secondAttribute="trailing" id="Ygf-cI-FEh"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="trailing" secondItem="VqN-I2-gxK" secondAttribute="trailing" id="bPb-wD-gam"/>
                     <constraint firstItem="GzY-49-2cP" firstAttribute="top" secondItem="TCl-OK-ovn" secondAttribute="bottom" constant="10" id="biZ-AI-Yea"/>
                     <constraint firstAttribute="bottomMargin" secondItem="GzY-49-2cP" secondAttribute="bottom" id="ded-mQ-aGb"/>
                     <constraint firstItem="3gt-UW-rKw" firstAttribute="centerY" secondItem="TCl-OK-ovn" secondAttribute="centerY" id="dlc-so-4aQ"/>
@@ -68,7 +84,10 @@
                     <constraint firstItem="GzY-49-2cP" firstAttribute="width" secondItem="TCl-OK-ovn" secondAttribute="width" id="ey6-ZB-Fv3"/>
                     <constraint firstItem="lHA-r0-dK1" firstAttribute="width" secondItem="3gt-UW-rKw" secondAttribute="width" id="fr2-Im-UgI"/>
                     <constraint firstItem="TCl-OK-ovn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="iqV-ok-Kol"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="height" secondItem="VqN-I2-gxK" secondAttribute="height" id="kJE-YU-4de"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="top" secondItem="VqN-I2-gxK" secondAttribute="top" id="qwq-Qf-oWb"/>
                     <constraint firstItem="A7m-4F-cI2" firstAttribute="centerY" secondItem="VqN-I2-gxK" secondAttribute="centerY" id="r6h-Rt-zza"/>
+                    <constraint firstItem="0QR-We-tXM" firstAttribute="centerY" secondItem="VqN-I2-gxK" secondAttribute="centerY" id="rdm-oC-ybT"/>
                     <constraint firstItem="3gt-UW-rKw" firstAttribute="width" secondItem="TCl-OK-ovn" secondAttribute="width" id="uLw-hq-XyH"/>
                     <constraint firstItem="lHA-r0-dK1" firstAttribute="top" secondItem="3gt-UW-rKw" secondAttribute="bottom" constant="10" id="zRG-x7-CNO"/>
                 </constraints>

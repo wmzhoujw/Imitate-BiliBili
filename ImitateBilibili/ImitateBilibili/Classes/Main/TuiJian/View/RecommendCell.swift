@@ -9,7 +9,7 @@
 import UIKit
 
 class RecommendCell: UITableViewCell {
-    var dataList = [String:[RecommendModel]](){
+        var dataList = [String:[RecommendModel]](){
         didSet{
             self.setDistplay()
         }
@@ -27,10 +27,14 @@ class RecommendCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+  
         selectionStyle = UITableViewCellSelectionStyle.none
         for idx in [1,2,3,4]{
+            
             let recommendCell = self.viewWithTag(idx)
             let recommendCellDetail = RecommendCellDetail.cellWithNib()
+            recommendCellDetail.layer.cornerRadius = 5
+            recommendCellDetail.layer.masksToBounds = true
             recommendCell?.frame = recommendCellDetail.bounds
             recommendCell?.addSubview(recommendCellDetail)
         }
