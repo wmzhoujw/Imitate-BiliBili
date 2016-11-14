@@ -88,12 +88,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ImitateBilibili/MJRefresh.framework"
   install_framework "Pods-ImitateBilibili/SDCycleScrollView.framework"
   install_framework "Pods-ImitateBilibili/SDWebImage.framework"
-  install_framework "Pods-ImitateBilibili/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ImitateBilibili/MJExtension.framework"
   install_framework "Pods-ImitateBilibili/MJRefresh.framework"
   install_framework "Pods-ImitateBilibili/SDCycleScrollView.framework"
   install_framework "Pods-ImitateBilibili/SDWebImage.framework"
-  install_framework "Pods-ImitateBilibili/SnapKit.framework"
 fi

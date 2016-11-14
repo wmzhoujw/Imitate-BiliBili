@@ -4,10 +4,10 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'ImitateBilibili' do
-pod 'SnapKit'
 pod 'SDWebImage'
 pod 'MJRefresh'
 pod 'MJExtension'
 pod 'SDCycleScrollView'
+
 end
 

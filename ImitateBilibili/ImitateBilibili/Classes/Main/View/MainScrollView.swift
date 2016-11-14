@@ -9,6 +9,8 @@
 import UIKit
 class MainScrollView:UIScrollView  {
     override func awakeFromNib() {
-        addSubview(CommendView(frame: self.bounds))
+        
+        let tframe = CGRect(x: 0, y: 0, width: frame.width, height:ScreenSize.height - 114)
+        addSubview(CommendView(frame: tframe))
     }
 }

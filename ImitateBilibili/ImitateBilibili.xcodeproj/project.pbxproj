@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		4F1831CF1DD56E0C00C3274F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1831CE1DD56E0C00C3274F /* ViewController.swift */; };
 		4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D01DD56E0C00C3274F /* Main.storyboard */; };
-		4F1831D41DD56E0C00C3274F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D31DD56E0C00C3274F /* Assets.xcassets */; };
 		4F1831D71DD56E0C00C3274F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D51DD56E0C00C3274F /* LaunchScreen.storyboard */; };
 		4F1831E21DD56E0C00C3274F /* ImitateBilibiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1831E11DD56E0C00C3274F /* ImitateBilibiliTests.swift */; };
 		4F1831ED1DD56E0C00C3274F /* ImitateBilibiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1831EC1DD56E0C00C3274F /* ImitateBilibiliUITests.swift */; };
 		4F1832061DD5A1F800C3274F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1832051DD5A1F800C3274F /* AppDelegate.swift */; };
 		4F1832171DD5C37600C3274F /* CommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1832161DD5C37600C3274F /* CommendView.swift */; };
-		4F1832191DD5CD1F00C3274F /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1832181DD5CD1F00C3274F /* BannerView.swift */; };
 		4F18321B1DD5CE5100C3274F /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18321A1DD5CE5100C3274F /* Macros.swift */; };
-		4F18321D1DD5D08D00C3274F /* BannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F18321C1DD5D08D00C3274F /* BannerView.xib */; };
 		4F1832211DD5D69B00C3274F /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1832201DD5D69B00C3274F /* BannerModel.swift */; };
+		4F30C12F1DD9AC000029C681 /* RecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F30C12E1DD9AC000029C681 /* RecommendModel.swift */; };
+		4F30C1321DD9B2640029C681 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F30C1311DD9B2640029C681 /* SwiftyJSON.swift */; };
+		4F30C1341DD9B2740029C681 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F30C1331DD9B2740029C681 /* Info-iOS.plist */; };
+		4F30C1361DD9B2D50029C681 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F30C1351DD9B2D50029C681 /* SnapKit.framework */; };
+		4F30C1381DD9D30C0029C681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F30C1371DD9D30C0029C681 /* Assets.xcassets */; };
 		4FDB3E6D1DD5DD3A0031A53E /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */; };
 		4FE4F9BE1DD72B2F00152A47 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */; };
 		4FE4F9BF1DD72B2F00152A47 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FEB25051DD766A1000A6D94 /* RecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB25031DD766A1000A6D94 /* RecommendCell.swift */; };
+		4FEB25061DD766A1000A6D94 /* RecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB25041DD766A1000A6D94 /* RecommendCell.xib */; };
+		4FEB25081DD98E16000A6D94 /* RecommendCellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB25071DD98E16000A6D94 /* RecommendCellDetail.swift */; };
+		4FEB250A1DD98E29000A6D94 /* RecommendCellDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB25091DD98E29000A6D94 /* RecommendCellDetail.xib */; };
 		BDB840B7C04EC2C753C7C454 /* Pods_ImitateBilibili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0A118D415954F77FDFD2C5 /* Pods_ImitateBilibili.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +66,6 @@
 		4F1831C91DD56E0C00C3274F /* ImitateBilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitateBilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1831CE1DD56E0C00C3274F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		4F1831D11DD56E0C00C3274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F1831D31DD56E0C00C3274F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Assets.xcassets; sourceTree = "<group>"; };
 		4F1831D61DD56E0C00C3274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1831D81DD56E0C00C3274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		4F1831DD1DD56E0C00C3274F /* ImitateBilibiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImitateBilibiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,12 +76,20 @@
 		4F1831EE1DD56E0C00C3274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F1832051DD5A1F800C3274F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1832161DD5C37600C3274F /* CommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommendView.swift; path = ../CommendView.swift; sourceTree = "<group>"; };
-		4F1832181DD5CD1F00C3274F /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		4F18321A1DD5CE5100C3274F /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
-		4F18321C1DD5D08D00C3274F /* BannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerView.xib; sourceTree = "<group>"; };
 		4F1832201DD5D69B00C3274F /* BannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		4F30C12E1DD9AC000029C681 /* RecommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendModel.swift; sourceTree = "<group>"; };
+		4F30C1301DD9B2640029C681 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		4F30C1311DD9B2640029C681 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4F30C1331DD9B2740029C681 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		4F30C1351DD9B2D50029C681 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
+		4F30C1371DD9D30C0029C681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 		4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEB25031DD766A1000A6D94 /* RecommendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendCell.swift; sourceTree = "<group>"; };
+		4FEB25041DD766A1000A6D94 /* RecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendCell.xib; sourceTree = "<group>"; };
+		4FEB25071DD98E16000A6D94 /* RecommendCellDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendCellDetail.swift; sourceTree = "<group>"; };
+		4FEB25091DD98E29000A6D94 /* RecommendCellDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendCellDetail.xib; sourceTree = "<group>"; };
 		B6C4104C7C853DC2706AEC3D /* Pods-ImitateBilibili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBilibili.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBilibili/Pods-ImitateBilibili.release.xcconfig"; sourceTree = "<group>"; };
 		DE1FB6C8EE4E6FF250415A2E /* Pods-ImitateBilibili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBilibili.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBilibili/Pods-ImitateBilibili.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0A118D415954F77FDFD2C5 /* Pods_ImitateBilibili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImitateBilibili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F30C1361DD9B2D50029C681 /* SnapKit.framework in Frameworks */,
 				BDB840B7C04EC2C753C7C454 /* Pods_ImitateBilibili.framework in Frameworks */,
 				4FE4F9BE1DD72B2F00152A47 /* Alamofire.framework in Frameworks */,
 			);
@@ -112,6 +126,8 @@
 		3A0EDE02EAA0ECEF01612828 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F30C1351DD9B2D50029C681 /* SnapKit.framework */,
+				4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */,
 				FE0A118D415954F77FDFD2C5 /* Pods_ImitateBilibili.framework */,
 			);
 			name = Frameworks;
@@ -120,7 +136,6 @@
 		4F1831C01DD56E0C00C3274F = {
 			isa = PBXGroup;
 			children = (
-				4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */,
 				4F1831CB1DD56E0C00C3274F /* ImitateBilibili */,
 				4F1831E01DD56E0C00C3274F /* ImitateBilibiliTests */,
 				4F1831EB1DD56E0C00C3274F /* ImitateBilibiliUITests */,
@@ -178,7 +193,7 @@
 				4F18320C1DD5AD4700C3274F /* FaXian */,
 				4F18320F1DD5AD4700C3274F /* FenQu */,
 				4F1832121DD5AD4700C3274F /* GuanZhu */,
-				4F1832131DD5AD4700C3274F /* TuiJian */,
+				4F1832131DD5AD4700C3274F /* TuiJian(推荐) */,
 				4F1832011DD59F1F00C3274F /* Main */,
 			);
 			path = Classes;
@@ -204,7 +219,7 @@
 		4F1831FE1DD59DD200C3274F /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				4F1831D31DD56E0C00C3274F /* Assets.xcassets */,
+				4F30C1371DD9D30C0029C681 /* Assets.xcassets */,
 			);
 			name = Image;
 			path = Macros/Image;
@@ -213,6 +228,9 @@
 		4F1832001DD59EF200C3274F /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				4F30C1301DD9B2640029C681 /* SwiftyJSON.h */,
+				4F30C1311DD9B2640029C681 /* SwiftyJSON.swift */,
+				4F30C1331DD9B2740029C681 /* Info-iOS.plist */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -332,19 +350,20 @@
 			path = Main/GuanZhu;
 			sourceTree = "<group>";
 		};
-		4F1832131DD5AD4700C3274F /* TuiJian */ = {
+		4F1832131DD5AD4700C3274F /* TuiJian(推荐) */ = {
 			isa = PBXGroup;
 			children = (
 				4F1832141DD5AD4700C3274F /* Model */,
 				4F1832151DD5AD4700C3274F /* View */,
 			);
-			name = TuiJian;
+			name = "TuiJian(推荐)";
 			path = Main/TuiJian;
 			sourceTree = "<group>";
 		};
 		4F1832141DD5AD4700C3274F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F30C12E1DD9AC000029C681 /* RecommendModel.swift */,
 				4F1832201DD5D69B00C3274F /* BannerModel.swift */,
 			);
 			path = Model;
@@ -354,8 +373,10 @@
 			isa = PBXGroup;
 			children = (
 				4F1832161DD5C37600C3274F /* CommendView.swift */,
-				4F1832181DD5CD1F00C3274F /* BannerView.swift */,
-				4F18321C1DD5D08D00C3274F /* BannerView.xib */,
+				4FEB25031DD766A1000A6D94 /* RecommendCell.swift */,
+				4FEB25041DD766A1000A6D94 /* RecommendCell.xib */,
+				4FEB25071DD98E16000A6D94 /* RecommendCellDetail.swift */,
+				4FEB25091DD98E29000A6D94 /* RecommendCellDetail.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -483,9 +504,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F18321D1DD5D08D00C3274F /* BannerView.xib in Resources */,
+				4FEB25061DD766A1000A6D94 /* RecommendCell.xib in Resources */,
 				4F1831D71DD56E0C00C3274F /* LaunchScreen.storyboard in Resources */,
-				4F1831D41DD56E0C00C3274F /* Assets.xcassets in Resources */,
+				4F30C1341DD9B2740029C681 /* Info-iOS.plist in Resources */,
+				4FEB250A1DD98E29000A6D94 /* RecommendCellDetail.xib in Resources */,
+				4F30C1381DD9D30C0029C681 /* Assets.xcassets in Resources */,
 				4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,10 +582,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1832191DD5CD1F00C3274F /* BannerView.swift in Sources */,
 				4FDB3E6D1DD5DD3A0031A53E /* MainScrollView.swift in Sources */,
+				4FEB25081DD98E16000A6D94 /* RecommendCellDetail.swift in Sources */,
 				4F18321B1DD5CE5100C3274F /* Macros.swift in Sources */,
+				4F30C1321DD9B2640029C681 /* SwiftyJSON.swift in Sources */,
 				4F1832171DD5C37600C3274F /* CommendView.swift in Sources */,
+				4F30C12F1DD9AC000029C681 /* RecommendModel.swift in Sources */,
+				4FEB25051DD766A1000A6D94 /* RecommendCell.swift in Sources */,
 				4F1832211DD5D69B00C3274F /* BannerModel.swift in Sources */,
 				4F1832061DD5A1F800C3274F /* AppDelegate.swift in Sources */,
 				4F1831CF1DD56E0C00C3274F /* ViewController.swift in Sources */,
@@ -719,6 +745,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33H98884X8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ImitateBilibili/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.godchao.ImitateBilibili;
@@ -733,6 +763,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33H98884X8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ImitateBilibili/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.godchao.ImitateBilibili;

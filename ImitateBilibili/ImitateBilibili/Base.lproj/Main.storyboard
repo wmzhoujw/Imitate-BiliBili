@@ -92,11 +92,12 @@
                             <constraint firstItem="DcN-CZ-m36" firstAttribute="top" secondItem="j6k-Aq-O5J" secondAttribute="bottom" id="EXG-Vh-CkN"/>
                             <constraint firstAttribute="trailing" secondItem="j6k-Aq-O5J" secondAttribute="trailing" id="J78-vb-MHe"/>
                             <constraint firstItem="j6k-Aq-O5J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Sr9-hS-MqY"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DcN-CZ-m36" secondAttribute="bottom" id="Tqk-Ho-HQJ"/>
+                            <constraint firstAttribute="bottom" secondItem="DcN-CZ-m36" secondAttribute="bottom" id="YYM-OW-Ehw"/>
                             <constraint firstItem="j6k-Aq-O5J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ta1-Y2-0zW"/>
                             <constraint firstAttribute="trailing" secondItem="DcN-CZ-m36" secondAttribute="trailing" id="zD0-dd-Dd0"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="QOQ-oE-UeO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -107,12 +108,17 @@
         <scene sceneID="GXF-gh-ZLf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="7Cb-bF-5U8" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Lj-aY-nK6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="hMb-Nc-pG8">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="GaK-x5-zQT"/>
                     </connections>
