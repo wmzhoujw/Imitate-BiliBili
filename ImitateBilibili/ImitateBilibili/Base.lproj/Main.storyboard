@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j6k-Aq-O5J">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j6k-Aq-O5J" customClass="FakeNavigationBar" customModule="ImitateBilibili" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ic_drawer_home" translatesAutoresizingMaskIntoConstraints="NO" id="o3C-Pt-hhr">
@@ -82,7 +82,7 @@
                                     <constraint firstItem="tUw-6C-0zk" firstAttribute="leading" secondItem="kkl-DI-FQw" secondAttribute="trailing" constant="20" id="sK2-U2-ofj"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcN-CZ-m36" customClass="MainScrollView" customModule="ImitateBilibili" customModuleProvider="target">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcN-CZ-m36" customClass="MainScrollView" customModule="ImitateBilibili" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="114" width="375" height="553"/>
                             </scrollView>
                         </subviews>
