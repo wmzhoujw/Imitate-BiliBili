@@ -9,6 +9,7 @@
 import UIKit
 
 class RecommendCell: UITableViewCell {
+    @IBOutlet weak var titleBtn: UIButton!
         var dataList = [String:[RecommendModel]](){
         didSet{
             self.setDistplay()
@@ -19,7 +20,6 @@ class RecommendCell: UITableViewCell {
             for (key,value) in dataList{
                 for idx in 1...value.count{
                 view = self.viewWithTag(idx)?.subviews.last as!RecommendCellDetail
-
                 view.dataModel = dataList[key]?[idx - 1]
             }
         }
@@ -35,7 +35,7 @@ class RecommendCell: UITableViewCell {
             let recommendCellDetail = RecommendCellDetail.cellWithNib()
             recommendCellDetail.layer.cornerRadius = 5
             recommendCellDetail.layer.masksToBounds = true
-            recommendCell?.frame = recommendCellDetail.bounds
+            recommendCellDetail.frame = (recommendCell?.bounds)!
             recommendCell?.addSubview(recommendCellDetail)
         }
     }

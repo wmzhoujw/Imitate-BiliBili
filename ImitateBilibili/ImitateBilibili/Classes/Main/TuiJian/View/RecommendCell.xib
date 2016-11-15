@@ -23,7 +23,7 @@
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqN-I2-gxK">
                         <rect key="frame" x="8" y="18" width="104" height="30"/>
                         <state key="normal" title="热门推荐" image="hd_home_recommend">
-                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QR-We-tXM" userLabel="热门推荐副本">
@@ -39,19 +39,19 @@
                         </state>
                     </button>
                     <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TCl-OK-ovn">
-                        <rect key="frame" x="8" y="58" width="289.5" height="181"/>
+                        <rect key="frame" x="8" y="58" width="290" height="181"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gt-UW-rKw">
-                        <rect key="frame" x="307.5" y="58" width="289.5" height="180"/>
+                        <rect key="frame" x="308" y="58" width="289" height="180"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzY-49-2cP">
-                        <rect key="frame" x="8" y="249" width="289.5" height="181"/>
+                        <rect key="frame" x="8" y="249" width="290" height="181"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lHA-r0-dK1">
-                        <rect key="frame" x="307.5" y="248" width="289.5" height="180"/>
+                        <rect key="frame" x="308" y="248" width="289" height="180"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </subviews>
@@ -92,6 +92,9 @@
                     <constraint firstItem="lHA-r0-dK1" firstAttribute="top" secondItem="3gt-UW-rKw" secondAttribute="bottom" constant="10" id="zRG-x7-CNO"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="titleBtn" destination="0QR-We-tXM" id="SDV-gX-6Iq"/>
+            </connections>
             <point key="canvasLocation" x="111.5" y="342.5"/>
         </tableViewCell>
     </objects>
