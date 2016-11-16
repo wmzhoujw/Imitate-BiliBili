@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FJHeaderView" customModule="ImitateBilibili" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FJHeaderView" customModule="ImitateBilibili" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="238"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E51-zT-X8a">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="exM-7e-7um"/>
+                    </constraints>
+                </scrollView>
+                <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17C-tR-z0T">
+                    <rect key="frame" x="0.0" y="100" width="375" height="80"/>
+                    <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="PnH-1C-QTI"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rO-TU-gvw" userLabel="fenlei" customClass="XCButton" customModule="ImitateBilibili" customModuleProvider="target">
+                    <rect key="frame" x="255" y="190" width="105" height="43"/>
+                    <state key="normal" image="hd_home_bangumi_category_new"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAa-h2-leP" userLabel="fangsongbiao" customClass="XCButton" customModule="ImitateBilibili" customModuleProvider="target">
+                    <rect key="frame" x="136" y="190" width="105" height="48"/>
+                    <state key="normal" backgroundImage="hd_home_bangumi_timeline_new"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aU-fL-Nhe" userLabel="zuifan" customClass="XCButton" customModule="ImitateBilibili" customModuleProvider="target">
+                    <rect key="frame" x="15" y="190" width="105" height="43"/>
+                    <state key="normal" backgroundImage="hd_home_bangumi_recommend_new"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8rO-TU-gvw" firstAttribute="leading" secondItem="QAa-h2-leP" secondAttribute="trailing" constant="15" id="1rG-k9-1H3"/>
+                <constraint firstItem="17C-tR-z0T" firstAttribute="top" secondItem="E51-zT-X8a" secondAttribute="bottom" id="5oj-fc-vLi"/>
+                <constraint firstItem="8rO-TU-gvw" firstAttribute="width" secondItem="QAa-h2-leP" secondAttribute="width" id="8GV-1L-ak3"/>
+                <constraint firstItem="QAa-h2-leP" firstAttribute="leading" secondItem="7aU-fL-Nhe" secondAttribute="trailing" constant="15" id="Erx-1t-H6G"/>
+                <constraint firstItem="E51-zT-X8a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ExY-o8-7iZ"/>
+                <constraint firstItem="QAa-h2-leP" firstAttribute="height" secondItem="7aU-fL-Nhe" secondAttribute="height" id="MsS-jf-ClR"/>
+                <constraint firstItem="QAa-h2-leP" firstAttribute="top" secondItem="17C-tR-z0T" secondAttribute="bottom" constant="10" id="Q5h-tv-I7a"/>
+                <constraint firstAttribute="trailing" secondItem="17C-tR-z0T" secondAttribute="trailing" id="Tqm-LD-cwA"/>
+                <constraint firstItem="17C-tR-z0T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yf5-Sk-bcJ"/>
+                <constraint firstItem="8rO-TU-gvw" firstAttribute="height" secondItem="QAa-h2-leP" secondAttribute="height" id="aVZ-Rj-Ym4"/>
+                <constraint firstAttribute="trailing" secondItem="8rO-TU-gvw" secondAttribute="trailing" constant="15" id="ehB-iA-4LB"/>
+                <constraint firstItem="8rO-TU-gvw" firstAttribute="top" secondItem="QAa-h2-leP" secondAttribute="top" id="h0W-oJ-oLd"/>
+                <constraint firstItem="E51-zT-X8a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iCd-ZJ-PdO"/>
+                <constraint firstItem="7aU-fL-Nhe" firstAttribute="top" secondItem="QAa-h2-leP" secondAttribute="top" id="jJg-X3-gq8"/>
+                <constraint firstItem="7aU-fL-Nhe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="oD9-mS-LiF"/>
+                <constraint firstAttribute="trailing" secondItem="E51-zT-X8a" secondAttribute="trailing" id="qAs-Za-En4"/>
+                <constraint firstItem="7aU-fL-Nhe" firstAttribute="width" secondItem="QAa-h2-leP" secondAttribute="width" id="rk3-vo-Lc6"/>
+                <constraint firstAttribute="bottom" secondItem="7aU-fL-Nhe" secondAttribute="bottom" priority="999" constant="5" id="tQO-PG-l9w"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="297"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hd_home_bangumi_category_new" width="274" height="60"/>
+        <image name="hd_home_bangumi_recommend_new" width="274" height="60"/>
+        <image name="hd_home_bangumi_timeline_new" width="274" height="60"/>
+    </resources>
+</document>

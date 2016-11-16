@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F1831CF1DD56E0C00C3274F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1831CE1DD56E0C00C3274F /* ViewController.swift */; };
 		4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D01DD56E0C00C3274F /* Main.storyboard */; };
 		4F1831D71DD56E0C00C3274F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D51DD56E0C00C3274F /* LaunchScreen.storyboard */; };
 		4F1831E21DD56E0C00C3274F /* ImitateBilibiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1831E11DD56E0C00C3274F /* ImitateBilibiliTests.swift */; };
@@ -18,6 +17,9 @@
 		4F30C1341DD9B2740029C681 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F30C1331DD9B2740029C681 /* Info-iOS.plist */; };
 		4F30C1361DD9B2D50029C681 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F30C1351DD9B2D50029C681 /* SnapKit.framework */; };
 		4F30C1381DD9D30C0029C681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F30C1371DD9D30C0029C681 /* Assets.xcassets */; };
+		4F4FA27D1DDC550F002771A4 /* FJHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */; };
+		4F4FA27F1DDC551B002771A4 /* FJHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4FA27E1DDC551B002771A4 /* FJHeaderView.xib */; };
+		4F4FA2831DDC6357002771A4 /* XCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA2821DDC6357002771A4 /* XCButton.swift */; };
 		4F773C191DDADFED00041C95 /* FaXianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773BFE1DDADFED00041C95 /* FaXianView.swift */; };
 		4F773C1A1DDADFED00041C95 /* FenQuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C021DDADFED00041C95 /* FenQuView.swift */; };
 		4F773C1B1DDADFED00041C95 /* GuanZhuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C061DDADFED00041C95 /* GuanZhuView.swift */; };
@@ -36,6 +38,7 @@
 		4F773C2A1DDAE03200041C95 /* FanJvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C291DDAE03200041C95 /* FanJvView.swift */; };
 		4F773C2C1DDAE7DD00041C95 /* FakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C2B1DDAE7DD00041C95 /* FakeNavigationBar.swift */; };
 		4F773C301DDAEB3F00041C95 /* UIButton+expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C2F1DDAEB3F00041C95 /* UIButton+expand.swift */; };
+		4F773C6C1DDB1AE600041C95 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C6B1DDB1AE600041C95 /* MainViewController.swift */; };
 		4FDB3E6D1DD5DD3A0031A53E /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */; };
 		4FE4F9BE1DD72B2F00152A47 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */; };
 		4FE4F9BF1DD72B2F00152A47 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -75,7 +78,6 @@
 
 /* Begin PBXFileReference section */
 		4F1831C91DD56E0C00C3274F /* ImitateBilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitateBilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F1831CE1DD56E0C00C3274F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		4F1831D11DD56E0C00C3274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1831D61DD56E0C00C3274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1831D81DD56E0C00C3274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
@@ -92,6 +94,9 @@
 		4F30C1331DD9B2740029C681 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		4F30C1351DD9B2D50029C681 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
 		4F30C1371DD9D30C0029C681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJHeaderView.swift; sourceTree = "<group>"; };
+		4F4FA27E1DDC551B002771A4 /* FJHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJHeaderView.xib; sourceTree = "<group>"; };
+		4F4FA2821DDC6357002771A4 /* XCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCButton.swift; sourceTree = "<group>"; };
 		4F773BFE1DDADFED00041C95 /* FaXianView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianView.swift; sourceTree = "<group>"; };
 		4F773C021DDADFED00041C95 /* FenQuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenQuView.swift; sourceTree = "<group>"; };
 		4F773C061DDADFED00041C95 /* GuanZhuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuanZhuView.swift; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 		4F773C291DDAE03200041C95 /* FanJvView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanJvView.swift; sourceTree = "<group>"; };
 		4F773C2B1DDAE7DD00041C95 /* FakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeNavigationBar.swift; sourceTree = "<group>"; };
 		4F773C2F1DDAEB3F00041C95 /* UIButton+expand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+expand.swift"; path = "ImitateBilibili/Expand/UIButton+expand.swift"; sourceTree = SOURCE_ROOT; };
+		4F773C6B1DDB1AE600041C95 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 		4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C4104C7C853DC2706AEC3D /* Pods-ImitateBilibili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBilibili.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBilibili/Pods-ImitateBilibili.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,11 +217,11 @@
 		4F1831FA1DD59C9100C3274F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4F773BFA1DDADFED00041C95 /* FanJv */,
-				4F773BFD1DDADFED00041C95 /* FaXian */,
-				4F773C011DDADFED00041C95 /* FenQu */,
-				4F773C051DDADFED00041C95 /* GuanZhu */,
-				4F773C091DDADFED00041C95 /* TuiJian */,
+				4F773BFA1DDADFED00041C95 /* 番剧 */,
+				4F773BFD1DDADFED00041C95 /* 发现 */,
+				4F773C011DDADFED00041C95 /* 分区 */,
+				4F773C051DDADFED00041C95 /* 关注 */,
+				4F773C091DDADFED00041C95 /* 推荐 */,
 				4F1832011DD59F1F00C3274F /* Main */,
 			);
 			path = Classes;
@@ -261,7 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				4F1832081DD5AB7300C3274F /* View */,
-				4F1831CE1DD56E0C00C3274F /* ViewController.swift */,
+				4F773C6B1DDB1AE600041C95 /* MainViewController.swift */,
 				4F1831D01DD56E0C00C3274F /* Main.storyboard */,
 			);
 			path = Main;
@@ -270,6 +276,8 @@
 		4F1832021DD59FCD00C3274F /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				4F773C2F1DDAEB3F00041C95 /* UIButton+expand.swift */,
+				4F4FA2821DDC6357002771A4 /* XCButton.swift */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -289,18 +297,18 @@
 			children = (
 				4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */,
 				4F773C2B1DDAE7DD00041C95 /* FakeNavigationBar.swift */,
-				4F773C2F1DDAEB3F00041C95 /* UIButton+expand.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		4F773BFA1DDADFED00041C95 /* FanJv */ = {
+		4F773BFA1DDADFED00041C95 /* 番剧 */ = {
 			isa = PBXGroup;
 			children = (
 				4F773C291DDAE03200041C95 /* FanJvView.swift */,
 				4F773BFB1DDADFED00041C95 /* Model */,
 				4F773BFC1DDADFED00041C95 /* View */,
 			);
+			name = "番剧";
 			path = FanJv;
 			sourceTree = "<group>";
 		};
@@ -314,17 +322,20 @@
 		4F773BFC1DDADFED00041C95 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */,
+				4F4FA27E1DDC551B002771A4 /* FJHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		4F773BFD1DDADFED00041C95 /* FaXian */ = {
+		4F773BFD1DDADFED00041C95 /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
 				4F773BFE1DDADFED00041C95 /* FaXianView.swift */,
 				4F773BFF1DDADFED00041C95 /* Model */,
 				4F773C001DDADFED00041C95 /* View */,
 			);
+			name = "发现";
 			path = FaXian;
 			sourceTree = "<group>";
 		};
@@ -342,13 +353,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4F773C011DDADFED00041C95 /* FenQu */ = {
+		4F773C011DDADFED00041C95 /* 分区 */ = {
 			isa = PBXGroup;
 			children = (
 				4F773C021DDADFED00041C95 /* FenQuView.swift */,
 				4F773C031DDADFED00041C95 /* Model */,
 				4F773C041DDADFED00041C95 /* View */,
 			);
+			name = "分区";
 			path = FenQu;
 			sourceTree = "<group>";
 		};
@@ -366,13 +378,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4F773C051DDADFED00041C95 /* GuanZhu */ = {
+		4F773C051DDADFED00041C95 /* 关注 */ = {
 			isa = PBXGroup;
 			children = (
 				4F773C061DDADFED00041C95 /* GuanZhuView.swift */,
 				4F773C071DDADFED00041C95 /* Model */,
 				4F773C081DDADFED00041C95 /* View */,
 			);
+			name = "关注";
 			path = GuanZhu;
 			sourceTree = "<group>";
 		};
@@ -390,13 +403,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4F773C091DDADFED00041C95 /* TuiJian */ = {
+		4F773C091DDADFED00041C95 /* 推荐 */ = {
 			isa = PBXGroup;
 			children = (
 				4F773C0A1DDADFED00041C95 /* CommendView.swift */,
 				4F773C0C1DDADFED00041C95 /* Model */,
 				4F773C101DDADFED00041C95 /* View */,
 			);
+			name = "推荐";
 			path = TuiJian;
 			sourceTree = "<group>";
 		};
@@ -554,6 +568,7 @@
 				4F773C261DDADFED00041C95 /* RecommendCell.xib in Resources */,
 				4F30C1381DD9D30C0029C681 /* Assets.xcassets in Resources */,
 				4F773C281DDADFED00041C95 /* RecommendCellDetail.xib in Resources */,
+				4F4FA27F1DDC551B002771A4 /* FJHeaderView.xib in Resources */,
 				4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */,
 				4F773C221DDADFED00041C95 /* LiveCell.xib in Resources */,
 			);
@@ -629,6 +644,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F773C2A1DDAE03200041C95 /* FanJvView.swift in Sources */,
+				4F4FA27D1DDC550F002771A4 /* FJHeaderView.swift in Sources */,
 				4F773C271DDADFED00041C95 /* RecommendCellDetail.swift in Sources */,
 				4FDB3E6D1DD5DD3A0031A53E /* MainScrollView.swift in Sources */,
 				4F773C1B1DDADFED00041C95 /* GuanZhuView.swift in Sources */,
@@ -637,6 +653,7 @@
 				4F773C1A1DDADFED00041C95 /* FenQuView.swift in Sources */,
 				4F30C1321DD9B2640029C681 /* SwiftyJSON.swift in Sources */,
 				4F773C2C1DDAE7DD00041C95 /* FakeNavigationBar.swift in Sources */,
+				4F4FA2831DDC6357002771A4 /* XCButton.swift in Sources */,
 				4F773C1F1DDADFED00041C95 /* LiveModel.swift in Sources */,
 				4F773C251DDADFED00041C95 /* RecommendCell.swift in Sources */,
 				4F773C1E1DDADFED00041C95 /* BannerModel.swift in Sources */,
@@ -644,9 +661,9 @@
 				4F773C201DDADFED00041C95 /* RecommendModel.swift in Sources */,
 				4F773C301DDAEB3F00041C95 /* UIButton+expand.swift in Sources */,
 				4F773C211DDADFED00041C95 /* LiveCell.swift in Sources */,
-				4F1831CF1DD56E0C00C3274F /* ViewController.swift in Sources */,
 				4F773C231DDADFED00041C95 /* LiveCellDetail.swift in Sources */,
 				4F773C191DDADFED00041C95 /* FaXianView.swift in Sources */,
+				4F773C6C1DDB1AE600041C95 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,6 @@
 
 import UIKit
 class MainScrollView:UIScrollView  {
-    
     override func awakeFromNib() {
         
         for idx in 0...4{

@@ -1,4 +1,4 @@
-//
+ //
 //  FanJvView.swift
 //  ImitateBilibili
 //
@@ -7,10 +7,16 @@
 //
 
 import UIKit
-class FanJvView:UIView {
+class FanJvView:UIScrollView {
+    var headView:FJHeaderView!
+    
    override init(frame: CGRect) {
         super.init(frame: frame)
-    backgroundColor = UIColor.blue
+    headView = FJHeaderView.viewWithNib()
+    
+    headView.frame = CGRect(x: 0, y: 0, width: ScreenWidth, height: headView.frame.height)
+    addSubview(headView)
+    self.contentSize = CGSize(width: ScreenWidth, height: 900)
     }
     
     required init?(coder aDecoder: NSCoder) {

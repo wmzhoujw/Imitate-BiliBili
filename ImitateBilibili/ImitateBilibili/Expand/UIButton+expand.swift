@@ -8,9 +8,13 @@
 
 import UIKit
 extension UIButton{
-    convenience init(name:String) {
+    convenience init(title:String) {
         self.init()
-        self.setTitle(name, for: .normal)
+        self.setTitle(title, for: .normal)
+    }
+    convenience init(imageName:String,title:String) {
+        self.init(title:title)
+        self.setImage(UIImage.init(named: imageName), for: UIControlState.normal)
     }
 
 }
