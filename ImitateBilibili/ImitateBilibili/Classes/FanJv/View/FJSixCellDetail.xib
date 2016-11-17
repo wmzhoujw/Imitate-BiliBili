@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FJSixCellDetail" customModule="ImitateBilibili" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="115" height="151"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VUh-ge-Mfd">
+                    <rect key="frame" x="0.0" y="0.0" width="115" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="NLv-gI-nGI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="199人在看" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BxH-yU-WKT">
+                    <rect key="frame" x="5" y="79" width="110" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="cbO-eM-jdz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1245678红烧豆腐规划及水电费" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3L-XO-RIf">
+                    <rect key="frame" x="0.0" y="100" width="115" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMm-aT-LUJ">
+                    <rect key="frame" x="0.0" y="130" width="115" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="R3H-hg-0px"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jMm-aT-LUJ" firstAttribute="top" secondItem="Q3L-XO-RIf" secondAttribute="bottom" id="2gP-Ub-wNk"/>
+                <constraint firstItem="Q3L-XO-RIf" firstAttribute="top" secondItem="BxH-yU-WKT" secondAttribute="bottom" id="3cg-aJ-lTl"/>
+                <constraint firstAttribute="bottom" secondItem="jMm-aT-LUJ" secondAttribute="bottom" id="6R8-P7-g3b"/>
+                <constraint firstItem="BxH-yU-WKT" firstAttribute="top" secondItem="VUh-ge-Mfd" secondAttribute="bottom" constant="-21" id="6mZ-Uc-Yjm"/>
+                <constraint firstAttribute="trailing" secondItem="jMm-aT-LUJ" secondAttribute="trailing" id="6wT-il-lsF"/>
+                <constraint firstAttribute="trailing" secondItem="BxH-yU-WKT" secondAttribute="trailing" id="9mN-ro-Ea3"/>
+                <constraint firstItem="VUh-ge-Mfd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MdP-g8-WLB"/>
+                <constraint firstAttribute="trailing" secondItem="VUh-ge-Mfd" secondAttribute="trailing" id="Tqv-0M-Gas"/>
+                <constraint firstAttribute="trailing" secondItem="Q3L-XO-RIf" secondAttribute="trailing" id="VSc-D3-S73"/>
+                <constraint firstItem="jMm-aT-LUJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bvd-iX-kYx"/>
+                <constraint firstItem="VUh-ge-Mfd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cK9-UQ-Jv7"/>
+                <constraint firstItem="Q3L-XO-RIf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fNb-67-ya3"/>
+                <constraint firstItem="BxH-yU-WKT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="ipE-WV-7fA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="VUh-ge-Mfd" id="tbA-2J-GvH"/>
+                <outlet property="subTitleLabel" destination="jMm-aT-LUJ" id="c61-qJ-MFx"/>
+                <outlet property="titleLabel" destination="Q3L-XO-RIf" id="swP-ki-bx3"/>
+                <outlet property="watchingCount" destination="BxH-yU-WKT" id="nb4-aM-g1l"/>
+            </connections>
+            <point key="canvasLocation" x="-96.5" y="266.5"/>
+        </view>
+    </objects>
+</document>

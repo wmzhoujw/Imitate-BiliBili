@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="293" id="KGk-i7-Jjw" customClass="FJThreeCell" customModule="ImitateBilibili" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="293"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="292.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VeX-7P-jMp">
+                        <rect key="frame" x="8" y="8" width="304" height="95"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="95" id="oCy-j6-D8O"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7月新番" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W74-xQ-dCA">
+                        <rect key="frame" x="28" y="109.5" width="51" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bangumi_unfinished" translatesAutoresizingMaskIntoConstraints="NO" id="hmS-1d-MrI">
+                        <rect key="frame" x="8" y="108" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Isi-Ac-CHi"/>
+                            <constraint firstAttribute="width" constant="20" id="OL0-Jb-VPd"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMf-1M-rM9">
+                        <rect key="frame" x="251" y="104.5" width="61" height="27.5"/>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="更多连载">
+                                    <attributes>
+                                        <color key="NSColor" red="0.68777735906030568" green="0.7419624924659729" blue="0.73485822923026178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.68777735906030568" green="0.7419624924659729" blue="0.73485822923026178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" metaFont="cellTitle"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="&gt;">
+                                    <attributes>
+                                        <color key="NSColor" red="0.68777735906030568" green="0.7419624924659729" blue="0.73485822923026178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                    </button>
+                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jJD-p0-dtF">
+                        <rect key="frame" x="8" y="136" width="96" height="144"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="jJD-p0-dtF" secondAttribute="height" multiplier="1:1.5" id="eC9-tj-5Ge"/>
+                        </constraints>
+                    </view>
+                    <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvZ-BG-9j8">
+                        <rect key="frame" x="112" y="136" width="96" height="144"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i40-CT-Oa5">
+                        <rect key="frame" x="216" y="136" width="96" height="144"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jJD-p0-dtF" firstAttribute="height" secondItem="fvZ-BG-9j8" secondAttribute="height" id="1TC-le-2HZ"/>
+                    <constraint firstItem="ZMf-1M-rM9" firstAttribute="centerY" secondItem="hmS-1d-MrI" secondAttribute="centerY" id="63V-Fy-ytP"/>
+                    <constraint firstItem="W74-xQ-dCA" firstAttribute="centerY" secondItem="hmS-1d-MrI" secondAttribute="centerY" id="8Kq-72-pfN"/>
+                    <constraint firstItem="hmS-1d-MrI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="EiM-FO-dC1"/>
+                    <constraint firstItem="i40-CT-Oa5" firstAttribute="top" secondItem="fvZ-BG-9j8" secondAttribute="top" id="HGe-eH-W4h"/>
+                    <constraint firstItem="jJD-p0-dtF" firstAttribute="width" secondItem="fvZ-BG-9j8" secondAttribute="width" id="MgD-Bu-POe"/>
+                    <constraint firstItem="W74-xQ-dCA" firstAttribute="leading" secondItem="hmS-1d-MrI" secondAttribute="trailing" id="Oh7-qR-DAe"/>
+                    <constraint firstItem="jJD-p0-dtF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="OuM-KC-AXy"/>
+                    <constraint firstAttribute="trailing" secondItem="i40-CT-Oa5" secondAttribute="trailing" constant="8" id="X2w-Jm-xKR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZMf-1M-rM9" secondAttribute="trailing" id="XtQ-1C-WZ0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="VeX-7P-jMp" secondAttribute="trailing" id="dzi-Bc-Iri"/>
+                    <constraint firstItem="jJD-p0-dtF" firstAttribute="top" secondItem="hmS-1d-MrI" secondAttribute="bottom" constant="8" id="fTT-RJ-eMg"/>
+                    <constraint firstItem="VeX-7P-jMp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ff3-zv-Rk0"/>
+                    <constraint firstItem="i40-CT-Oa5" firstAttribute="leading" secondItem="fvZ-BG-9j8" secondAttribute="trailing" constant="8" id="jDv-LU-6yY"/>
+                    <constraint firstItem="i40-CT-Oa5" firstAttribute="width" secondItem="fvZ-BG-9j8" secondAttribute="width" id="jp7-eA-p9O"/>
+                    <constraint firstItem="fvZ-BG-9j8" firstAttribute="top" secondItem="jJD-p0-dtF" secondAttribute="top" id="lgr-RR-41h"/>
+                    <constraint firstItem="hmS-1d-MrI" firstAttribute="top" secondItem="VeX-7P-jMp" secondAttribute="bottom" constant="5" id="o7p-xM-2I2"/>
+                    <constraint firstItem="i40-CT-Oa5" firstAttribute="height" secondItem="fvZ-BG-9j8" secondAttribute="height" id="rxE-xR-j9q"/>
+                    <constraint firstItem="VeX-7P-jMp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="xYv-sl-KCO"/>
+                    <constraint firstItem="fvZ-BG-9j8" firstAttribute="leading" secondItem="jJD-p0-dtF" secondAttribute="trailing" constant="8" id="ywm-Z2-e1l"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="adImgView" destination="VeX-7P-jMp" id="MQQ-67-eyc"/>
+                <outlet property="adViewheight" destination="oCy-j6-D8O" id="pPm-qf-PGf"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="215.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bangumi_unfinished" width="30" height="30"/>
+    </resources>
+</document>

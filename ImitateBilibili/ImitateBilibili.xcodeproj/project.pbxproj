@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F02FBBF1DDDA7FA0044C963 /* FJThreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02FBBD1DDDA7FA0044C963 /* FJThreeCell.swift */; };
+		4F02FBC01DDDA7FA0044C963 /* FJThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F02FBBE1DDDA7FA0044C963 /* FJThreeCell.xib */; };
+		4F06F26C1DDD4B47004C67EA /* FJNavItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06F26B1DDD4B47004C67EA /* FJNavItem.swift */; };
+		4F06F2701DDD5A90004C67EA /* FJNavItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F06F26F1DDD5A90004C67EA /* FJNavItem.xib */; };
+		4F06F2721DDD7383004C67EA /* XCCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06F2711DDD7383004C67EA /* XCCycleScrollView.swift */; };
+		4F06F2751DDD7DFC004C67EA /* FJSixCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06F2731DDD7DFC004C67EA /* FJSixCell.swift */; };
+		4F06F2761DDD7DFC004C67EA /* FJSixCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F06F2741DDD7DFC004C67EA /* FJSixCell.xib */; };
+		4F06F2781DDD834F004C67EA /* FJSixCellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06F2771DDD834F004C67EA /* FJSixCellDetail.swift */; };
+		4F06F27A1DDD835E004C67EA /* FJSixCellDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F06F2791DDD835E004C67EA /* FJSixCellDetail.xib */; };
+		4F06F27C1DDD8CEE004C67EA /* SerializingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06F27B1DDD8CEE004C67EA /* SerializingModel.swift */; };
 		4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D01DD56E0C00C3274F /* Main.storyboard */; };
 		4F1831D71DD56E0C00C3274F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1831D51DD56E0C00C3274F /* LaunchScreen.storyboard */; };
 		4F1831E21DD56E0C00C3274F /* ImitateBilibiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1831E11DD56E0C00C3274F /* ImitateBilibiliTests.swift */; };
@@ -20,6 +30,10 @@
 		4F4FA27D1DDC550F002771A4 /* FJHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */; };
 		4F4FA27F1DDC551B002771A4 /* FJHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4FA27E1DDC551B002771A4 /* FJHeaderView.xib */; };
 		4F4FA2831DDC6357002771A4 /* XCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA2821DDC6357002771A4 /* XCButton.swift */; };
+		4F5919E41DDDBB85003DDC33 /* SaCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F5919E31DDDBB85003DDC33 /* SaCell.plist */; };
+		4F5919E71DDDBE58003DDC33 /* FenQuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5919E51DDDBE58003DDC33 /* FenQuViewCell.swift */; };
+		4F5919E81DDDBE58003DDC33 /* FenQuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5919E61DDDBE58003DDC33 /* FenQuViewCell.xib */; };
+		4F5919EA1DDDBFDF003DDC33 /* FenQuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5919E91DDDBFDF003DDC33 /* FenQuModel.swift */; };
 		4F773C191DDADFED00041C95 /* FaXianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773BFE1DDADFED00041C95 /* FaXianView.swift */; };
 		4F773C1A1DDADFED00041C95 /* FenQuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C021DDADFED00041C95 /* FenQuView.swift */; };
 		4F773C1B1DDADFED00041C95 /* GuanZhuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773C061DDADFED00041C95 /* GuanZhuView.swift */; };
@@ -77,10 +91,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F02FBBD1DDDA7FA0044C963 /* FJThreeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJThreeCell.swift; sourceTree = "<group>"; };
+		4F02FBBE1DDDA7FA0044C963 /* FJThreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJThreeCell.xib; sourceTree = "<group>"; };
+		4F06F26B1DDD4B47004C67EA /* FJNavItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJNavItem.swift; sourceTree = "<group>"; };
+		4F06F26F1DDD5A90004C67EA /* FJNavItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJNavItem.xib; sourceTree = "<group>"; };
+		4F06F2711DDD7383004C67EA /* XCCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCCycleScrollView.swift; sourceTree = "<group>"; };
+		4F06F2731DDD7DFC004C67EA /* FJSixCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJSixCell.swift; sourceTree = "<group>"; };
+		4F06F2741DDD7DFC004C67EA /* FJSixCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJSixCell.xib; sourceTree = "<group>"; };
+		4F06F2771DDD834F004C67EA /* FJSixCellDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJSixCellDetail.swift; sourceTree = "<group>"; };
+		4F06F2791DDD835E004C67EA /* FJSixCellDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJSixCellDetail.xib; sourceTree = "<group>"; };
+		4F06F27B1DDD8CEE004C67EA /* SerializingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializingModel.swift; sourceTree = "<group>"; };
 		4F1831C91DD56E0C00C3274F /* ImitateBilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitateBilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1831D11DD56E0C00C3274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1831D61DD56E0C00C3274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F1831D81DD56E0C00C3274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		4F1831D81DD56E0C00C3274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		4F1831DD1DD56E0C00C3274F /* ImitateBilibiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImitateBilibiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1831E11DD56E0C00C3274F /* ImitateBilibiliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImitateBilibiliTests.swift; sourceTree = "<group>"; };
 		4F1831E31DD56E0C00C3274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +121,10 @@
 		4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJHeaderView.swift; sourceTree = "<group>"; };
 		4F4FA27E1DDC551B002771A4 /* FJHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJHeaderView.xib; sourceTree = "<group>"; };
 		4F4FA2821DDC6357002771A4 /* XCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCButton.swift; sourceTree = "<group>"; };
+		4F5919E31DDDBB85003DDC33 /* SaCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SaCell.plist; sourceTree = "<group>"; };
+		4F5919E51DDDBE58003DDC33 /* FenQuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenQuViewCell.swift; sourceTree = "<group>"; };
+		4F5919E61DDDBE58003DDC33 /* FenQuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FenQuViewCell.xib; sourceTree = "<group>"; };
+		4F5919E91DDDBFDF003DDC33 /* FenQuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenQuModel.swift; sourceTree = "<group>"; };
 		4F773BFE1DDADFED00041C95 /* FaXianView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianView.swift; sourceTree = "<group>"; };
 		4F773C021DDADFED00041C95 /* FenQuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenQuView.swift; sourceTree = "<group>"; };
 		4F773C061DDADFED00041C95 /* GuanZhuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuanZhuView.swift; sourceTree = "<group>"; };
@@ -230,6 +258,7 @@
 		4F1831FB1DD59D5D00C3274F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				4F5919E21DDDBB4B003DDC33 /* Plist */,
 				4F1831FE1DD59DD200C3274F /* Image */,
 				4F1831FD1DD59DB900C3274F /* Macros */,
 			);
@@ -285,7 +314,6 @@
 		4F1832071DD5A22700C3274F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F1831D81DD56E0C00C3274F /* Info.plist */,
 				4F1831D51DD56E0C00C3274F /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
@@ -299,6 +327,15 @@
 				4F773C2B1DDAE7DD00041C95 /* FakeNavigationBar.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4F5919E21DDDBB4B003DDC33 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				4F1831D81DD56E0C00C3274F /* Info.plist */,
+				4F5919E31DDDBB85003DDC33 /* SaCell.plist */,
+			);
+			path = Plist;
 			sourceTree = "<group>";
 		};
 		4F773BFA1DDADFED00041C95 /* 番剧 */ = {
@@ -315,6 +352,7 @@
 		4F773BFB1DDADFED00041C95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F06F27B1DDD8CEE004C67EA /* SerializingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,8 +360,17 @@
 		4F773BFC1DDADFED00041C95 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */,
+				4F06F26B1DDD4B47004C67EA /* FJNavItem.swift */,
+				4F06F2711DDD7383004C67EA /* XCCycleScrollView.swift */,
+				4F06F26F1DDD5A90004C67EA /* FJNavItem.xib */,
 				4F4FA27E1DDC551B002771A4 /* FJHeaderView.xib */,
+				4F4FA27C1DDC550F002771A4 /* FJHeaderView.swift */,
+				4F06F2731DDD7DFC004C67EA /* FJSixCell.swift */,
+				4F06F2741DDD7DFC004C67EA /* FJSixCell.xib */,
+				4F06F2771DDD834F004C67EA /* FJSixCellDetail.swift */,
+				4F06F2791DDD835E004C67EA /* FJSixCellDetail.xib */,
+				4F02FBBD1DDDA7FA0044C963 /* FJThreeCell.swift */,
+				4F02FBBE1DDDA7FA0044C963 /* FJThreeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -367,6 +414,7 @@
 		4F773C031DDADFED00041C95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F5919E91DDDBFDF003DDC33 /* FenQuModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -374,6 +422,8 @@
 		4F773C041DDADFED00041C95 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F5919E51DDDBE58003DDC33 /* FenQuViewCell.swift */,
+				4F5919E61DDDBE58003DDC33 /* FenQuViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -566,11 +616,17 @@
 				4F30C1341DD9B2740029C681 /* Info-iOS.plist in Resources */,
 				4F773C241DDADFED00041C95 /* LiveCellDetail.xib in Resources */,
 				4F773C261DDADFED00041C95 /* RecommendCell.xib in Resources */,
+				4F5919E81DDDBE58003DDC33 /* FenQuViewCell.xib in Resources */,
+				4F06F2761DDD7DFC004C67EA /* FJSixCell.xib in Resources */,
+				4F06F2701DDD5A90004C67EA /* FJNavItem.xib in Resources */,
+				4F5919E41DDDBB85003DDC33 /* SaCell.plist in Resources */,
+				4F02FBC01DDDA7FA0044C963 /* FJThreeCell.xib in Resources */,
 				4F30C1381DD9D30C0029C681 /* Assets.xcassets in Resources */,
 				4F773C281DDADFED00041C95 /* RecommendCellDetail.xib in Resources */,
 				4F4FA27F1DDC551B002771A4 /* FJHeaderView.xib in Resources */,
 				4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */,
 				4F773C221DDADFED00041C95 /* LiveCell.xib in Resources */,
+				4F06F27A1DDD835E004C67EA /* FJSixCellDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,21 +704,29 @@
 				4F773C271DDADFED00041C95 /* RecommendCellDetail.swift in Sources */,
 				4FDB3E6D1DD5DD3A0031A53E /* MainScrollView.swift in Sources */,
 				4F773C1B1DDADFED00041C95 /* GuanZhuView.swift in Sources */,
+				4F06F2721DDD7383004C67EA /* XCCycleScrollView.swift in Sources */,
+				4F06F2751DDD7DFC004C67EA /* FJSixCell.swift in Sources */,
 				4F18321B1DD5CE5100C3274F /* Macros.swift in Sources */,
 				4F773C1C1DDADFED00041C95 /* CommendView.swift in Sources */,
 				4F773C1A1DDADFED00041C95 /* FenQuView.swift in Sources */,
 				4F30C1321DD9B2640029C681 /* SwiftyJSON.swift in Sources */,
 				4F773C2C1DDAE7DD00041C95 /* FakeNavigationBar.swift in Sources */,
+				4F5919E71DDDBE58003DDC33 /* FenQuViewCell.swift in Sources */,
 				4F4FA2831DDC6357002771A4 /* XCButton.swift in Sources */,
 				4F773C1F1DDADFED00041C95 /* LiveModel.swift in Sources */,
+				4F06F2781DDD834F004C67EA /* FJSixCellDetail.swift in Sources */,
 				4F773C251DDADFED00041C95 /* RecommendCell.swift in Sources */,
+				4F5919EA1DDDBFDF003DDC33 /* FenQuModel.swift in Sources */,
 				4F773C1E1DDADFED00041C95 /* BannerModel.swift in Sources */,
+				4F02FBBF1DDDA7FA0044C963 /* FJThreeCell.swift in Sources */,
 				4F1832061DD5A1F800C3274F /* AppDelegate.swift in Sources */,
 				4F773C201DDADFED00041C95 /* RecommendModel.swift in Sources */,
+				4F06F27C1DDD8CEE004C67EA /* SerializingModel.swift in Sources */,
 				4F773C301DDAEB3F00041C95 /* UIButton+expand.swift in Sources */,
 				4F773C211DDADFED00041C95 /* LiveCell.swift in Sources */,
 				4F773C231DDADFED00041C95 /* LiveCellDetail.swift in Sources */,
 				4F773C191DDADFED00041C95 /* FaXianView.swift in Sources */,
+				4F06F26C1DDD4B47004C67EA /* FJNavItem.swift in Sources */,
 				4F773C6C1DDB1AE600041C95 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

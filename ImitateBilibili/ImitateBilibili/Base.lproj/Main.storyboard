@@ -65,7 +65,7 @@
                                         <state key="normal" image="ic_menu_top_game_center1"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.95847016572952271" green="0.34712189435958862" blue="0.5339808464050293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95686274509803915" green="0.34901960784313724" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="o3C-Pt-hhr" firstAttribute="leading" secondItem="j6k-Aq-O5J" secondAttribute="leading" constant="-5" id="5BR-RU-qi1"/>
                                     <constraint firstItem="zS4-KN-TIm" firstAttribute="leading" secondItem="tUw-6C-0zk" secondAttribute="trailing" constant="20" id="C9T-wD-nBt"/>

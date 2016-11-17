@@ -9,20 +9,31 @@
 import UIKit
 
 class FenQuView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+    var collectionView:UICollectionView!
+    var collectionViewFlowLayout:UICollectionViewFlowLayout!
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor.red
+        collectionViewFlowLayout = UICollectionViewFlowLayout.init()
+        collectionView = UICollectionView.init(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenSize.height), collectionViewLayout: collectionViewFlowLayout)
+        collectionViewFlowLayout.itemSize = CGSize(width: ScreenWidth / 4, height: ScreenWidth / 4)
+        collectionViewFlowLayout.minimumInteritemSpacing = 10
+        collectionViewFlowLayout.minimumLineSpacing = 20
+        collectionView.backgroundColor = UIColor.white
+        addSubview(collectionView)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(UINib.init(nibName: "FenQuViewCell", bundle: nil), forCellWithReuseIdentifier: FenQuViewCell.FenQuViewCellID)
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+extension FenQuView:UICollectionViewDelegate,UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 12
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return collectionView.dequeueReusableCell(withReuseIdentifier: FenQuViewCell.FenQuViewCellID, for: indexPath)
     }
 }

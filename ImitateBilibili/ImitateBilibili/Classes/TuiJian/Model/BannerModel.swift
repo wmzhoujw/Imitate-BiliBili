@@ -38,7 +38,7 @@ class BannerModel : NSObject{
 	 */
 	func toDictionary() -> NSDictionary
 	{
-		var dictionary = NSMutableDictionary()
+		let dictionary = NSMutableDictionary()
 		if image != nil{
 			dictionary["image"] = image
 		}
