@@ -62,19 +62,20 @@ class CommendView: UIView ,SDCycleScrollViewDelegate{
                     let arrayItem = json["result"][idx].dictionary
                     var value:Any!
                     var tkey:String!
-                    switch idx % 2{
+                    switch idx{
                     case 0:
                          value = RecommendModel.mj_objectArray(withKeyValuesArray: arrayItem?["body"]?.arrayObject)
-                        tkey = (arrayItem?["head"]?["title"].stringValue)!
+                        tkey = (arrayItem?["head"]?["title"].stringValue)
+                         self.CommendDataList.add([tkey:value])
+
                     case 1:
                          value = LiveModel.mj_objectArray(withKeyValuesArray: arrayItem?["body"]?.arrayObject)
                          tkey = (arrayItem?["head"]?["title"].stringValue)!
+                         self.CommendDataList.add([tkey:value])
+
                     default:
                         break
                     }
-        
-                    
-                self.CommendDataList.add([tkey:value])
                 self.tableView.reloadData()
                 }
             }
@@ -124,7 +125,7 @@ extension CommendView:UITableViewDelegate,UITableViewDataSource{
    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if self.CommendDataList.count > 0 {
-            return self.CommendDataList.count
+            return 10
         }else{
             return 0
         }

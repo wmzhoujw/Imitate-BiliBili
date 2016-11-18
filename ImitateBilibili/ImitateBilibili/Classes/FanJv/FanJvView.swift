@@ -23,7 +23,9 @@
         self.tableView.register(UINib.init(nibName: "FJSixCell", bundle: nil),forCellReuseIdentifier:FanJvView.SixCellID)
         self.tableView.register(UINib.init(nibName: "FJThreeCell", bundle: nil), forCellReuseIdentifier: FanJvView.ThreeCellID)
         headView = FJHeaderView.viewWithNib()
-        headView.frame = CGRect(x: 0, y: 0, width: ScreenWidth, height: headView.frame.height)
+
+        let headHeight = ScreenWidth == 320 ? 230 :(ScreenWidth == 375 ? 250 : 270)
+        headView.frame = CGRect(x: 0, y: 0, width: Int(ScreenWidth), height: headHeight)
         self.tableView.tableHeaderView = headView
         self.tableView.delegate = self
         self.tableView.dataSource = self

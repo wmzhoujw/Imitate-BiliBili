@@ -9,8 +9,8 @@
 import UIKit
 
 class FenQuModel: NSObject {
-    var imageName:String!
-    var title:String!
+    var name:String!
+    var icon:String!
     init(dict:[String:AnyObject]) {
         super.init()
         setValuesForKeys(dict)

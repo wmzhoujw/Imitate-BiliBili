@@ -12,23 +12,23 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FJHeaderView" customModule="ImitateBilibili" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FJHeaderView" customModule="ImitateBilibili" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="237"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="251"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17C-tR-z0T" userLabel="navBar">
-                    <rect key="frame" x="0.0" y="100" width="375" height="62"/>
+                    <rect key="frame" x="0.0" y="100" width="375" height="76"/>
                     <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAa-h2-leP" userLabel="fangsongbiao" customClass="XCButton" customModule="ImitateBilibili" customModuleProvider="target">
-                    <rect key="frame" x="135" y="172" width="105" height="60"/>
+                    <rect key="frame" x="135" y="186" width="105" height="60"/>
                     <state key="normal" image="hd_home_bangumi_timeline_new"/>
                 </button>
                 <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aU-fL-Nhe" userLabel="zuifan" customClass="XCButton" customModule="ImitateBilibili" customModuleProvider="target">
-                    <rect key="frame" x="15" y="172" width="105" height="60"/>
+                    <rect key="frame" x="15" y="186" width="105" height="60"/>
                     <state key="normal" image="hd_home_bangumi_recommend_new"/>
                 </button>
                 <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rO-TU-gvw" userLabel="fenlei" customClass="XCButton" customModule="ImitateBilibili" customModuleProvider="target">
-                    <rect key="frame" x="255" y="172" width="105" height="60"/>
+                    <rect key="frame" x="255" y="186" width="105" height="60"/>
                     <state key="normal" image="hd_home_bangumi_category_new"/>
                 </button>
                 <view tag="10" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMK-4C-QDa" customClass="XCCycleScrollView" customModule="ImitateBilibili" customModuleProvider="target">
@@ -61,7 +61,7 @@
                 <constraint firstAttribute="trailing" secondItem="eMK-4C-QDa" secondAttribute="trailing" id="zBa-qd-RyT"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="33.5" y="296.5"/>
+            <point key="canvasLocation" x="33.5" y="303.5"/>
         </view>
     </objects>
     <resources>

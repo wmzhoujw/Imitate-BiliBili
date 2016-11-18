@@ -70,9 +70,27 @@
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>游戏中心</string>
+		<key>icon</key>
+		<string>ic_category_game_center</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>时尚</string>
 		<key>icon</key>
-		<string>ic_category_unknown</string>
+		<string>ic_category_game_center</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>广告</string>
+		<key>icon</key>
+		<string>ic_category_t86</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>时尚</string>
+		<key>icon</key>
+		<string>ic_category_t71</string>
 	</dict>
 </array>
 </plist>
