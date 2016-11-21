@@ -31,25 +31,27 @@ class MainViewController: UIViewController {
     }
     // MARK: - 设置启动动画
     private func initialAnimation(){
-        let imgView = UIImageView.init(image: UIImage.init(named: "bilibili_splash_default"))
-       
+        var path = Bundle.main.path(forResource: "bilibili_splash_default@2x.png", ofType: nil)
+        let imgView = UIImageView.init(image: UIImage.init(contentsOfFile: path!))
+        
         let newSize = imgView.bounds.size
         imgView.frame.size = CGSize(width: 0, height: 0)
-        let bgView = UIImageView.init(image: UIImage.init(named: "bilibili_splash_iphone_bg"))
-        bgView.frame = view.frame
-        view.addSubview(bgView)
-         bgView.addSubview(imgView)
+        path = Bundle.main.path(forResource: "bilibili_splash_iphone_bg@2x.png", ofType: nil)
+        var bgView:UIImageView? = UIImageView.init(image: UIImage.init(contentsOfFile: path!))
+        bgView?.frame = view.frame
+        view.addSubview(bgView!)
+         bgView?.addSubview(imgView)
         
          imgView.center = view.center
         UIView.animate(withDuration: 0.5, animations: {
             imgView.bounds.size = newSize
         }, completion: {(bool) in
             UIView.animate(withDuration: 2, animations: {
-                bgView.alpha = 0
-                bgView.layer.transform = CATransform3DScale(CATransform3DIdentity, 1.2, 1.2, 1);
+                bgView?.alpha = 0
+                bgView?.layer.transform = CATransform3DScale(CATransform3DIdentity, 1.2, 1.2, 1);
 
             }, completion: { (bool) in
-                bgView.removeFromSuperview()
+                bgView?.removeFromSuperview()
             })
         })
     

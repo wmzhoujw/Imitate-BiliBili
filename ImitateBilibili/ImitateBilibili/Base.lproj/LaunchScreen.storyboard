@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" wantsFullScreenLayout="YES" hidesBottomBarWhenPushed="YES" id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
@@ -23,20 +23,23 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bilibili_splash_iphone_bg" translatesAutoresizingMaskIntoConstraints="NO" id="uD5-Rs-gWL">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="uD5-Rs-gWL" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="Ck6-E5-7tI"/>
-                            <constraint firstAttribute="trailing" secondItem="uD5-Rs-gWL" secondAttribute="trailing" id="YC2-LF-Vd8"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="uD5-Rs-gWL" secondAttribute="bottom" id="luk-Oh-QK8"/>
-                            <constraint firstItem="uD5-Rs-gWL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="o9L-zn-DB9"/>
+                            <constraint firstItem="uD5-Rs-gWL" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="CIY-L1-tQg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="uD5-Rs-gWL" secondAttribute="bottom" id="UgO-ir-SqT"/>
+                            <constraint firstAttribute="trailing" secondItem="uD5-Rs-gWL" secondAttribute="trailing" id="l0V-aI-CQc"/>
+                            <constraint firstItem="uD5-Rs-gWL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nPc-dc-Vxm"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

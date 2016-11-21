@@ -56,6 +56,14 @@
 		4FDB3E6D1DD5DD3A0031A53E /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */; };
 		4FE4F9BE1DD72B2F00152A47 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */; };
 		4FE4F9BF1DD72B2F00152A47 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FF3B5161DE29F8B007B4E4F /* bilibili_splash_default@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B50E1DE29F8B007B4E4F /* bilibili_splash_default@2x 2.png */; };
+		4FF3B5171DE29F8B007B4E4F /* bilibili_splash_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B50F1DE29F8B007B4E4F /* bilibili_splash_default@2x.png */; };
+		4FF3B5181DE29F8B007B4E4F /* bilibili_splash_default@3x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B5101DE29F8B007B4E4F /* bilibili_splash_default@3x 2.png */; };
+		4FF3B5191DE29F8B007B4E4F /* bilibili_splash_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B5111DE29F8B007B4E4F /* bilibili_splash_default@3x.png */; };
+		4FF3B51A1DE29F8B007B4E4F /* bilibili_splash_iphone_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B5121DE29F8B007B4E4F /* bilibili_splash_iphone_bg.png */; };
+		4FF3B51B1DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B5131DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x 2.png */; };
+		4FF3B51C1DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B5141DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x.png */; };
+		4FF3B51D1DE29F8B007B4E4F /* bilibili_splash_iphone_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3B5151DE29F8B007B4E4F /* bilibili_splash_iphone_bg@3x.png */; };
 		BDB840B7C04EC2C753C7C454 /* Pods_ImitateBilibili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0A118D415954F77FDFD2C5 /* Pods_ImitateBilibili.framework */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +154,14 @@
 		4F773C6B1DDB1AE600041C95 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4FDB3E6C1DD5DD3A0031A53E /* MainScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 		4FE4F9BD1DD72B2F00152A47 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF3B50E1DE29F8B007B4E4F /* bilibili_splash_default@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_default@2x 2.png"; sourceTree = "<group>"; };
+		4FF3B50F1DE29F8B007B4E4F /* bilibili_splash_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_default@2x.png"; sourceTree = "<group>"; };
+		4FF3B5101DE29F8B007B4E4F /* bilibili_splash_default@3x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_default@3x 2.png"; sourceTree = "<group>"; };
+		4FF3B5111DE29F8B007B4E4F /* bilibili_splash_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_default@3x.png"; sourceTree = "<group>"; };
+		4FF3B5121DE29F8B007B4E4F /* bilibili_splash_iphone_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bilibili_splash_iphone_bg.png; sourceTree = "<group>"; };
+		4FF3B5131DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_iphone_bg@2x 2.png"; sourceTree = "<group>"; };
+		4FF3B5141DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_iphone_bg@2x.png"; sourceTree = "<group>"; };
+		4FF3B5151DE29F8B007B4E4F /* bilibili_splash_iphone_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_iphone_bg@3x.png"; sourceTree = "<group>"; };
 		B6C4104C7C853DC2706AEC3D /* Pods-ImitateBilibili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBilibili.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBilibili/Pods-ImitateBilibili.release.xcconfig"; sourceTree = "<group>"; };
 		DE1FB6C8EE4E6FF250415A2E /* Pods-ImitateBilibili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBilibili.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBilibili/Pods-ImitateBilibili.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0A118D415954F77FDFD2C5 /* Pods_ImitateBilibili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImitateBilibili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -276,6 +292,7 @@
 		4F1831FE1DD59DD200C3274F /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				4FF3B50D1DE29F8B007B4E4F /* launchScreen */,
 				4F30C1371DD9D30C0029C681 /* Assets.xcassets */,
 			);
 			name = Image;
@@ -489,6 +506,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4FF3B50D1DE29F8B007B4E4F /* launchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3B50E1DE29F8B007B4E4F /* bilibili_splash_default@2x 2.png */,
+				4FF3B50F1DE29F8B007B4E4F /* bilibili_splash_default@2x.png */,
+				4FF3B5101DE29F8B007B4E4F /* bilibili_splash_default@3x 2.png */,
+				4FF3B5111DE29F8B007B4E4F /* bilibili_splash_default@3x.png */,
+				4FF3B5121DE29F8B007B4E4F /* bilibili_splash_iphone_bg.png */,
+				4FF3B5131DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x 2.png */,
+				4FF3B5141DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x.png */,
+				4FF3B5151DE29F8B007B4E4F /* bilibili_splash_iphone_bg@3x.png */,
+			);
+			path = launchScreen;
+			sourceTree = "<group>";
+		};
 		BD1FB8610A97B39003445AD6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,16 +648,24 @@
 				4F30C1341DD9B2740029C681 /* Info-iOS.plist in Resources */,
 				4F773C241DDADFED00041C95 /* LiveCellDetail.xib in Resources */,
 				4F773C261DDADFED00041C95 /* RecommendCell.xib in Resources */,
+				4FF3B51A1DE29F8B007B4E4F /* bilibili_splash_iphone_bg.png in Resources */,
+				4FF3B5171DE29F8B007B4E4F /* bilibili_splash_default@2x.png in Resources */,
 				4F5919E81DDDBE58003DDC33 /* FenQuViewCell.xib in Resources */,
 				4F06F2761DDD7DFC004C67EA /* FJSixCell.xib in Resources */,
 				4F06F2701DDD5A90004C67EA /* FJNavItem.xib in Resources */,
 				4F5919E41DDDBB85003DDC33 /* SaCell.plist in Resources */,
 				4F02FBC01DDDA7FA0044C963 /* FJThreeCell.xib in Resources */,
 				4F30C1381DD9D30C0029C681 /* Assets.xcassets in Resources */,
+				4FF3B5161DE29F8B007B4E4F /* bilibili_splash_default@2x 2.png in Resources */,
 				4F773C281DDADFED00041C95 /* RecommendCellDetail.xib in Resources */,
+				4FF3B51C1DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x.png in Resources */,
+				4FF3B5191DE29F8B007B4E4F /* bilibili_splash_default@3x.png in Resources */,
+				4FF3B51B1DE29F8B007B4E4F /* bilibili_splash_iphone_bg@2x 2.png in Resources */,
 				4F4FA27F1DDC551B002771A4 /* FJHeaderView.xib in Resources */,
 				4F1831D21DD56E0C00C3274F /* Main.storyboard in Resources */,
 				4F773C221DDADFED00041C95 /* LiveCell.xib in Resources */,
+				4FF3B51D1DE29F8B007B4E4F /* bilibili_splash_iphone_bg@3x.png in Resources */,
+				4FF3B5181DE29F8B007B4E4F /* bilibili_splash_default@3x 2.png in Resources */,
 				4F06F27A1DDD835E004C67EA /* FJSixCellDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
