@@ -2,5 +2,5 @@
 个人项目，仿BiliBili
 language：swift3.0+
 xcode 8.0+
-//点颗星星，关注后续 更新
+//Star一下，是对我最大的支持
 
